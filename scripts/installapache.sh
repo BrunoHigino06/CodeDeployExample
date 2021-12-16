@@ -1,2 +1,2 @@
 #!/bin/bash
-yum -y install httpd > /var/log/installapache.out 2>&1
+sudo amazon-linux-extras install nginx1 > /var/log/installapache.out 2>&1
